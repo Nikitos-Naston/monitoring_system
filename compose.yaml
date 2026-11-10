@@ -1,0 +1,53 @@
+services:
+  mqtt:
+    image: eclipse-mosquitto:2.0
+    volumes:
+      - ./deploy/mosquitto-demo.conf:/mosquitto/config/mosquitto.conf:ro
+      - broker_data:/mosquitto/data
+    restart: unless-stopped
+
+  db:
+    image: postgres:16
+    profiles: [postgres]
+    environment:
+      POSTGRES_DB: templates
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: local_demo_only
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U demo -d templates"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  worker:
+    build: .
+    depends_on: [mqtt]
+    environment:
+      MQTT_HOST: mqtt
+      MQTT_CLIENT_ID: ${MQTT_CLIENT_ID:-sibur-transform-v1}
+      TEMPLATE_BACKEND: ${TEMPLATE_BACKEND:-fixture}
+      DATABASE_URL: postgresql://demo:local_demo_only@db:5432/templates
+      OUTPUT_DIR: /data
+    volumes:
+      - decoded_data:/data
+    restart: on-failure
+    stop_grace_period: 20s
+    init: true
+    mem_limit: 512m
+    pids_limit: 128
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    read_only: true
+    tmpfs: [/tmp]
+    healthcheck:
+      test: [CMD-SHELL, "test -s /tmp/sibur-transform-ready"]
+      interval: 2s
+      timeout: 1s
+      retries: 15
+
+volumes:
+  broker_data:
+  db_data:
+  decoded_data:

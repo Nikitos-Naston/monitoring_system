@@ -1,0 +1,20 @@
+{
+  "event_id": "demo-12",
+  "device_id": "si23-demo-b",
+  "poll_id": "rc03-full",
+  "asset_id": "RC03",
+  "observed_at": "2026-11-10T12:00:12Z",
+  "profile": "rc_full",
+  "template_version": 1,
+  "start_address": 544,
+  "word_order": "high_first",
+  "payload_sha256": "4f54b31b8b9f9e223637542038de82a6a8f630ac30caba06314734e2ab8dd854",
+  "data": {
+    "temperature_c": 21.0,
+    "dust_mg_m3": 0.0,
+    "door_open": false,
+    "leak": false,
+    "smoke": false,
+    "fan_on": true
+  }
+}

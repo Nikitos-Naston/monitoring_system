@@ -1,0 +1,24 @@
+{
+  "event_id": "demo-16",
+  "device_id": "si23-demo-b",
+  "poll_id": "pc02-full",
+  "asset_id": "PC02",
+  "observed_at": "2026-11-10T12:00:16Z",
+  "profile": "pc_full",
+  "template_version": 1,
+  "start_address": 800,
+  "word_order": "low_first",
+  "payload_sha256": "4b6c85bf47230f2c29056f4d2abc9073ce2036fd4cc726770f8ecd89d539fb94",
+  "data": {
+    "temperature_c": 28.0,
+    "humidity_pct": 61.3,
+    "power_a_w": 0.1,
+    "power_b_w": 0.2,
+    "power_c_w": 0.3,
+    "energy_a_kwh": 9999.99,
+    "energy_b_kwh": 10000.0,
+    "energy_c_kwh": 20000.0,
+    "door_open": false,
+    "fan_on": false
+  }
+}

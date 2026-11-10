@@ -1,0 +1,490 @@
+[
+  {
+    "event_id": "demo-01",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc01-env",
+    "asset_id": "CC01",
+    "observed_at": "2026-11-10T12:00:01Z",
+    "profile": "cc_environment",
+    "template_version": 1,
+    "start_address": 256,
+    "word_order": "high_first",
+    "payload_sha256": "73f05b84aa932e9bbeac8d7ad53ae8969f9e7cd285a9b6513ff1635f324b6f20",
+    "data": {
+      "temperature_c": 23.5,
+      "humidity_pct": 45.67
+    }
+  },
+  {
+    "event_id": "demo-02",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc01-env",
+    "asset_id": "CC01",
+    "observed_at": "2026-11-10T12:00:02Z",
+    "profile": "cc_environment",
+    "template_version": 1,
+    "start_address": 256,
+    "word_order": "high_first",
+    "payload_sha256": "25f2d534227e8a9c657c7c404f671a8af7c5b7a1eb40f34dfe61989fe1c4c244",
+    "data": {
+      "temperature_c": -1.25,
+      "humidity_pct": 48.2
+    }
+  },
+  {
+    "event_id": "demo-03",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc14-env",
+    "asset_id": "CC14",
+    "observed_at": "2026-11-10T12:00:03Z",
+    "profile": "cc_environment",
+    "template_version": 1,
+    "start_address": 464,
+    "word_order": "high_first",
+    "payload_sha256": "d80b3748447aa871b07114f3e6a80f47b8eaf326d4be22eafd1d6a7487e1711d",
+    "data": {
+      "temperature_c": 0.0,
+      "humidity_pct": 0.0
+    }
+  },
+  {
+    "event_id": "demo-04",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc14-env",
+    "asset_id": "CC14",
+    "observed_at": "2026-11-10T12:00:04Z",
+    "profile": "cc_environment",
+    "template_version": 1,
+    "start_address": 464,
+    "word_order": "high_first",
+    "payload_sha256": "4dc3bf515919683a8671ed5d5a671c8263c5a29448b99b2dee24a054fcf2a3da",
+    "data": {
+      "temperature_c": 31.25,
+      "humidity_pct": 100.0
+    }
+  },
+  {
+    "event_id": "demo-05",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc01-flags",
+    "asset_id": "CC01",
+    "observed_at": "2026-11-10T12:00:05Z",
+    "profile": "cc_flags",
+    "template_version": 1,
+    "start_address": 258,
+    "word_order": "high_first",
+    "payload_sha256": "3e9dac719e78f2e144d830b893305337ad290c30a5d796891f19d77f46313936",
+    "data": {
+      "door_open": false,
+      "leak": false,
+      "ups_bypass": false,
+      "ups_low_bat": false
+    }
+  },
+  {
+    "event_id": "demo-06",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc01-flags",
+    "asset_id": "CC01",
+    "observed_at": "2026-11-10T12:00:06Z",
+    "profile": "cc_flags",
+    "template_version": 1,
+    "start_address": 258,
+    "word_order": "high_first",
+    "payload_sha256": "94eb9364a2ad76f986a387127a28949946ba4cb99423cc1b084597bc19ca4ca8",
+    "data": {
+      "door_open": true,
+      "leak": false,
+      "ups_bypass": true,
+      "ups_low_bat": false
+    }
+  },
+  {
+    "event_id": "demo-07",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc14-flags",
+    "asset_id": "CC14",
+    "observed_at": "2026-11-10T12:00:07Z",
+    "profile": "cc_flags",
+    "template_version": 1,
+    "start_address": 466,
+    "word_order": "high_first",
+    "payload_sha256": "974e655ecdc98e431cf3ffdbbda88ab2d36585af006090e2a1f6ccca0bd1cc00",
+    "data": {
+      "door_open": false,
+      "leak": true,
+      "ups_bypass": false,
+      "ups_low_bat": true
+    }
+  },
+  {
+    "event_id": "demo-08",
+    "device_id": "si23-demo-a",
+    "poll_id": "cc14-flags",
+    "asset_id": "CC14",
+    "observed_at": "2026-11-10T12:00:08Z",
+    "profile": "cc_flags",
+    "template_version": 1,
+    "start_address": 466,
+    "word_order": "high_first",
+    "payload_sha256": "a492b55c084d5e78dbe9d6a74c4cd607878355dd0bd70947cc126c6d47a084a3",
+    "data": {
+      "door_open": true,
+      "leak": true,
+      "ups_bypass": true,
+      "ups_low_bat": true
+    }
+  },
+  {
+    "event_id": "demo-09",
+    "device_id": "si23-demo-b",
+    "poll_id": "rc01-full",
+    "asset_id": "RC01",
+    "observed_at": "2026-11-10T12:00:09Z",
+    "profile": "rc_full",
+    "template_version": 1,
+    "start_address": 512,
+    "word_order": "high_first",
+    "payload_sha256": "159e2c02736516e30522af84323b6305cdf8e97d8aea877d594dbc844666e955",
+    "data": {
+      "temperature_c": 22.5,
+      "dust_mg_m3": 1.23456,
+      "door_open": false,
+      "leak": false,
+      "smoke": false,
+      "fan_on": false
+    }
+  },
+  {
+    "event_id": "demo-10",
+    "device_id": "si23-demo-b",
+    "poll_id": "rc01-full",
+    "asset_id": "RC01",
+    "observed_at": "2026-11-10T12:00:10Z",
+    "profile": "rc_full",
+    "template_version": 1,
+    "start_address": 512,
+    "word_order": "high_first",
+    "payload_sha256": "0b7f84e7da76e4fa9100303aa07c2a8d30fc499a0b8d7d888187f95732497ed2",
+    "data": {
+      "temperature_c": -0.25,
+      "dust_mg_m3": 7e-05,
+      "door_open": false,
+      "leak": false,
+      "smoke": true,
+      "fan_on": true
+    }
+  },
+  {
+    "event_id": "demo-11",
+    "device_id": "si23-demo-b",
+    "poll_id": "rc03-full",
+    "asset_id": "RC03",
+    "observed_at": "2026-11-10T12:00:11Z",
+    "profile": "rc_full",
+    "template_version": 1,
+    "start_address": 544,
+    "word_order": "high_first",
+    "payload_sha256": "dcad673c62a4af7b16b0a96b5586aeaa690502ad19a07dce69e4d2e0139f245c",
+    "data": {
+      "temperature_c": 34.0,
+      "dust_mg_m3": 2.0,
+      "door_open": true,
+      "leak": true,
+      "smoke": false,
+      "fan_on": false
+    }
+  },
+  {
+    "event_id": "demo-12",
+    "device_id": "si23-demo-b",
+    "poll_id": "rc03-full",
+    "asset_id": "RC03",
+    "observed_at": "2026-11-10T12:00:12Z",
+    "profile": "rc_full",
+    "template_version": 1,
+    "start_address": 544,
+    "word_order": "high_first",
+    "payload_sha256": "4f54b31b8b9f9e223637542038de82a6a8f630ac30caba06314734e2ab8dd854",
+    "data": {
+      "temperature_c": 21.0,
+      "dust_mg_m3": 0.0,
+      "door_open": false,
+      "leak": false,
+      "smoke": false,
+      "fan_on": true
+    }
+  },
+  {
+    "event_id": "demo-13",
+    "device_id": "si23-demo-b",
+    "poll_id": "pc01-full",
+    "asset_id": "PC01",
+    "observed_at": "2026-11-10T12:00:13Z",
+    "profile": "pc_full",
+    "template_version": 1,
+    "start_address": 768,
+    "word_order": "high_first",
+    "payload_sha256": "9c19a06eaebe949638205ceafc43a67464038d4f44cc218042fa544c631b99ed",
+    "data": {
+      "temperature_c": 26.8,
+      "humidity_pct": 44.0,
+      "power_a_w": 1234.56,
+      "power_b_w": 2345.67,
+      "power_c_w": 3456.78,
+      "energy_a_kwh": 6789.01,
+      "energy_b_kwh": 7890.12,
+      "energy_c_kwh": 8901.23,
+      "door_open": true,
+      "fan_on": false
+    }
+  },
+  {
+    "event_id": "demo-14",
+    "device_id": "si23-demo-b",
+    "poll_id": "pc01-full",
+    "asset_id": "PC01",
+    "observed_at": "2026-11-10T12:00:14Z",
+    "profile": "pc_full",
+    "template_version": 1,
+    "start_address": 768,
+    "word_order": "high_first",
+    "payload_sha256": "0dc6081eb30e1a34205f6baa2902d3737db3ac92037ade12acd8c242b149cf1c",
+    "data": {
+      "temperature_c": 19.0,
+      "humidity_pct": 50.0,
+      "power_a_w": 0.0,
+      "power_b_w": 0.01,
+      "power_c_w": 655.36,
+      "energy_a_kwh": 1000.0,
+      "energy_b_kwh": 0.0,
+      "energy_c_kwh": 1.25,
+      "door_open": false,
+      "fan_on": true
+    }
+  },
+  {
+    "event_id": "demo-15",
+    "device_id": "si23-demo-b",
+    "poll_id": "pc02-full",
+    "asset_id": "PC02",
+    "observed_at": "2026-11-10T12:00:15Z",
+    "profile": "pc_full",
+    "template_version": 1,
+    "start_address": 800,
+    "word_order": "low_first",
+    "payload_sha256": "36beba9445f739be9b6d7b8bfdb9d367c8bd734cea537cfd613d09ce45c930ef",
+    "data": {
+      "temperature_c": -1.25,
+      "humidity_pct": 35.0,
+      "power_a_w": 655.38,
+      "power_b_w": 1310.73,
+      "power_c_w": 2000.0,
+      "energy_a_kwh": 4300.01,
+      "energy_b_kwh": 2500.02,
+      "energy_c_kwh": 1600.03,
+      "door_open": true,
+      "fan_on": true
+    }
+  },
+  {
+    "event_id": "demo-16",
+    "device_id": "si23-demo-b",
+    "poll_id": "pc02-full",
+    "asset_id": "PC02",
+    "observed_at": "2026-11-10T12:00:16Z",
+    "profile": "pc_full",
+    "template_version": 1,
+    "start_address": 800,
+    "word_order": "low_first",
+    "payload_sha256": "4b6c85bf47230f2c29056f4d2abc9073ce2036fd4cc726770f8ecd89d539fb94",
+    "data": {
+      "temperature_c": 28.0,
+      "humidity_pct": 61.3,
+      "power_a_w": 0.1,
+      "power_b_w": 0.2,
+      "power_c_w": 0.3,
+      "energy_a_kwh": 9999.99,
+      "energy_b_kwh": 10000.0,
+      "energy_c_kwh": 20000.0,
+      "door_open": false,
+      "fan_on": false
+    }
+  },
+  {
+    "event_id": "demo-17",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-env",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:17Z",
+    "profile": "room_environment",
+    "template_version": 1,
+    "start_address": 0,
+    "word_order": "high_first",
+    "payload_sha256": "ca5d64dc4cd731e4e271d0de307c60e2f0caaf9823168937049d14c09ab14dc3",
+    "data": {
+      "temperature_1_c": 22.0,
+      "temperature_2_c": 22.1,
+      "temperature_3_c": 22.5,
+      "temperature_4_c": 22.6,
+      "dust_mg_m3": 0.004,
+      "humidity_pct": 45.5,
+      "hygrometer_temperature_c": 22.4,
+      "pressure_mmhg": 760.1
+    }
+  },
+  {
+    "event_id": "demo-18",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-env",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:18Z",
+    "profile": "room_environment",
+    "template_version": 1,
+    "start_address": 0,
+    "word_order": "high_first",
+    "payload_sha256": "1ce4a2cc9a8cbc3842b3452c74c093005cf12c95d1f28e47dac6e6addd649b4d",
+    "data": {
+      "temperature_1_c": -0.5,
+      "temperature_2_c": 1.0,
+      "temperature_3_c": 3.5,
+      "temperature_4_c": 5.0,
+      "dust_mg_m3": 1.2,
+      "humidity_pct": 65.0,
+      "hygrometer_temperature_c": 4.0,
+      "pressure_mmhg": 749.8
+    }
+  },
+  {
+    "event_id": "demo-19",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-env",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:19Z",
+    "profile": "room_environment",
+    "template_version": 1,
+    "start_address": 0,
+    "word_order": "high_first",
+    "payload_sha256": "8848e5d91ec2c66ef44ffc653e533fa24c8fa6a90bcf0a9c1be2df42c40b9a56",
+    "data": {
+      "temperature_1_c": 24.5,
+      "temperature_2_c": 24.6,
+      "temperature_3_c": 24.7,
+      "temperature_4_c": 24.8,
+      "dust_mg_m3": 0.0,
+      "humidity_pct": 50.5,
+      "hygrometer_temperature_c": 25.0,
+      "pressure_mmhg": 765.0
+    }
+  },
+  {
+    "event_id": "demo-20",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-env",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:20Z",
+    "profile": "room_environment",
+    "template_version": 1,
+    "start_address": 0,
+    "word_order": "high_first",
+    "payload_sha256": "98c0ddde4e6191b9f2fa36a080faae946cdf2aa4d8d3d15c99214311be1a8745",
+    "data": {
+      "temperature_1_c": 25.0,
+      "temperature_2_c": 24.0,
+      "temperature_3_c": 23.0,
+      "temperature_4_c": 22.0,
+      "dust_mg_m3": 0.65538,
+      "humidity_pct": 33.5,
+      "hygrometer_temperature_c": 23.2,
+      "pressure_mmhg": 751.7
+    }
+  },
+  {
+    "event_id": "demo-21",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-flags",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:21Z",
+    "profile": "room_flags",
+    "template_version": 1,
+    "start_address": 9,
+    "word_order": "high_first",
+    "payload_sha256": "a541a1225a455f2a5a4011db0b4c71742ef6caa6094b7eb5379c7a7dea26cfa0",
+    "data": {
+      "room_leak": false,
+      "controller_cabinet_status": false,
+      "motion_1": false,
+      "motion_2": false,
+      "ac_1_run": false,
+      "ac_2_run": false,
+      "dehum_1_run": false,
+      "dehum_2_run": false
+    }
+  },
+  {
+    "event_id": "demo-22",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-flags",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:22Z",
+    "profile": "room_flags",
+    "template_version": 1,
+    "start_address": 9,
+    "word_order": "high_first",
+    "payload_sha256": "9c5f6a8058554807bff0dc9547616f366d66a7dccf1d69899c03b3babb2b8414",
+    "data": {
+      "room_leak": true,
+      "controller_cabinet_status": false,
+      "motion_1": true,
+      "motion_2": false,
+      "ac_1_run": true,
+      "ac_2_run": false,
+      "dehum_1_run": false,
+      "dehum_2_run": false
+    }
+  },
+  {
+    "event_id": "demo-23",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-flags",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:23Z",
+    "profile": "room_flags",
+    "template_version": 1,
+    "start_address": 9,
+    "word_order": "high_first",
+    "payload_sha256": "9fb1daa75177d44aa3494e553dbc251e0cf214ce26957dba52cdb42e3767191f",
+    "data": {
+      "room_leak": false,
+      "controller_cabinet_status": true,
+      "motion_1": false,
+      "motion_2": true,
+      "ac_1_run": false,
+      "ac_2_run": true,
+      "dehum_1_run": false,
+      "dehum_2_run": true
+    }
+  },
+  {
+    "event_id": "demo-24",
+    "device_id": "si23-demo-a",
+    "poll_id": "room-flags",
+    "asset_id": "ROOM",
+    "observed_at": "2026-11-10T12:00:24Z",
+    "profile": "room_flags",
+    "template_version": 1,
+    "start_address": 9,
+    "word_order": "high_first",
+    "payload_sha256": "b057107ae2be74b414722a4d41991f4e94f796f6ba7fd0747eae0bf147ad7238",
+    "data": {
+      "room_leak": true,
+      "controller_cabinet_status": true,
+      "motion_1": true,
+      "motion_2": true,
+      "ac_1_run": true,
+      "ac_2_run": true,
+      "dehum_1_run": true,
+      "dehum_2_run": true
+    }
+  }
+]

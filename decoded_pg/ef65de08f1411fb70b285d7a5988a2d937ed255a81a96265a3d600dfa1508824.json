@@ -1,0 +1,16 @@
+{
+  "event_id": "demo-01",
+  "device_id": "si23-demo-a",
+  "poll_id": "cc01-env",
+  "asset_id": "CC01",
+  "observed_at": "2026-11-10T12:00:01Z",
+  "profile": "cc_environment",
+  "template_version": 1,
+  "start_address": 256,
+  "word_order": "high_first",
+  "payload_sha256": "73f05b84aa932e9bbeac8d7ad53ae8969f9e7cd285a9b6513ff1635f324b6f20",
+  "data": {
+    "temperature_c": 23.5,
+    "humidity_pct": 45.67
+  }
+}

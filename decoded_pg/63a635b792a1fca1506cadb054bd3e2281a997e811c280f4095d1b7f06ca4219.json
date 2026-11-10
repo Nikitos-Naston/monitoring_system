@@ -1,0 +1,22 @@
+{
+  "event_id": "demo-22",
+  "device_id": "si23-demo-a",
+  "poll_id": "room-flags",
+  "asset_id": "ROOM",
+  "observed_at": "2026-11-10T12:00:22Z",
+  "profile": "room_flags",
+  "template_version": 1,
+  "start_address": 9,
+  "word_order": "high_first",
+  "payload_sha256": "9c5f6a8058554807bff0dc9547616f366d66a7dccf1d69899c03b3babb2b8414",
+  "data": {
+    "room_leak": true,
+    "controller_cabinet_status": false,
+    "motion_1": true,
+    "motion_2": false,
+    "ac_1_run": true,
+    "ac_2_run": false,
+    "dehum_1_run": false,
+    "dehum_2_run": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "event_id": "demo-05",
+  "device_id": "si23-demo-a",
+  "poll_id": "cc01-flags",
+  "asset_id": "CC01",
+  "observed_at": "2026-11-10T12:00:05Z",
+  "profile": "cc_flags",
+  "template_version": 1,
+  "start_address": 258,
+  "word_order": "high_first",
+  "payload_sha256": "3e9dac719e78f2e144d830b893305337ad290c30a5d796891f19d77f46313936",
+  "data": {
+    "door_open": false,
+    "leak": false,
+    "ups_bypass": false,
+    "ups_low_bat": false
+  }
+}

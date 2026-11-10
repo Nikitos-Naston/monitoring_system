@@ -1,0 +1,22 @@
+{
+  "event_id": "demo-18",
+  "device_id": "si23-demo-a",
+  "poll_id": "room-env",
+  "asset_id": "ROOM",
+  "observed_at": "2026-11-10T12:00:18Z",
+  "profile": "room_environment",
+  "template_version": 1,
+  "start_address": 0,
+  "word_order": "high_first",
+  "payload_sha256": "1ce4a2cc9a8cbc3842b3452c74c093005cf12c95d1f28e47dac6e6addd649b4d",
+  "data": {
+    "temperature_1_c": -0.5,
+    "temperature_2_c": 1.0,
+    "temperature_3_c": 3.5,
+    "temperature_4_c": 5.0,
+    "dust_mg_m3": 1.2,
+    "humidity_pct": 65.0,
+    "hygrometer_temperature_c": 4.0,
+    "pressure_mmhg": 749.8
+  }
+}
